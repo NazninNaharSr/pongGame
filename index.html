@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pong Game - 2 Player Mode</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Pong Game</h1>
+  <div id="settings">
+    <label>
+      Player 1 Name: <input type="text" id="player1Name" value="">
+    </label>
+    <label>
+      Player 2 Name: <input type="text" id="player2Name" value="">
+    </label>
+    <button id="startBtn">Start Game</button>
+  </div>
+  <canvas id="pong" width="800" height="500"></canvas>
+  <div id="winner" style="display:none;"></div>
+  <script src="game.js"></script>
+</body>
+</html>
